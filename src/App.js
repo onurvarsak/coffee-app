@@ -1,8 +1,8 @@
 import React, { useEffect, useState } from 'react';
-import Coffee from './client/components/bussiness/coffee/Coffee'
 import { getCoffees } from './server/CoffeeWs';
 import './App.css';
 import LeftSide from './client/components/bussiness/LeftSide/LeftSide';
+import RightSide from './client/components/bussiness/RightSide/RightSide';
 
 function App() {
   const [allCoffeesData, setAllCoffeesData] = useState([])
@@ -78,25 +78,12 @@ function App() {
   
 
   return (
-    <div>
+    <div className="AppContainer">
       <LeftSide categories={coffeeCategories}
         searchKey={searchKey}
         onChangeSearchKey={searchInputOnChange}
         onChangeSelectCategory={onChangeSelectCategory} />
-      {
-        filteredCoffees.map(coffee => {
-          return <Coffee 
-            title={coffee.title}
-            description ={coffee.description}
-            ingredients ={coffee.ingredients}
-            category = {coffee.category}
-            id = {coffee.id}
-            key={coffee.id.toString()}
-          />
-        })
-      }
-      
-
+      <RightSide filteredCoffeeData={filteredCoffees} />
     </div>
   );
 }

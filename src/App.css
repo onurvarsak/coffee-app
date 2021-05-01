@@ -1,3 +1,15 @@
+.AppContainer {
+  display: flex;
+  flex-direction: row;
+  height: 80vh;
+  width: 50%;
+  border: 1px solid black;
+  border-radius: 4px;
+  margin: auto;
+  margin-top: 40px;
+  box-sizing: border-box;
+
+}
 .App {
   text-align: center;
 }

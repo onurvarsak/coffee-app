@@ -27,7 +27,7 @@ function Coffee({
 
 
   return (
-    <div className="Container">
+    <div className="CoffeeContainer">
         <div className="Title">{title}</div>
         <div className="Description">{description}</div>
         <div className="Ingredients">Ingreditions: {getIngreditionWithFormat()}</div>
