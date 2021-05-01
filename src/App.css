@@ -36,3 +36,13 @@
     transform: rotate(360deg);
   }
 }
+
+@font-face {
+  font-family: 'Exo-Bold';
+  src: local('Exo-Bold'), url(./fonts/exo-bold.woff2) format('woff2');
+}
+
+@font-face {
+  font-family: 'Roboto-Regular';
+  src: local('Roboto-Regular'), url(./fonts/roboto-regular.woff2) format('woff2');
+}
