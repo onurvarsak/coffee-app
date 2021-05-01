@@ -1,1 +1,16 @@
+.Container {
+    margin-bottom: 50px;
+}
+.Title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 12px;
+}
 
+.Description{
+    margin-bottom: 12px;
+}
+
+.Ingredients {
+    font-size: 13px;
+}
