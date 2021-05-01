@@ -1,7 +1,8 @@
 .Button {
     text-transform: capitalize;
     padding-left: 10px;
-    cursor: pointer;    
+    margin-bottom: 10px;
+    cursor: pointer;   
 }
 
 .Active {
@@ -33,5 +34,7 @@
 .LeftSideContainer {
     box-sizing: border-box;
     padding: 10px 20px;
-    width: 100%;
+    width: 30%;
+    border-right: 1px solid black;
+    padding-top: 50px;
 }
