@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/coffee-app/static/css/main.75900c75.chunk.css",
+    "main.js": "/coffee-app/static/js/main.d6ba46d5.chunk.js",
+    "main.js.map": "/coffee-app/static/js/main.d6ba46d5.chunk.js.map",
+    "runtime-main.js": "/coffee-app/static/js/runtime-main.1d0466d8.js",
+    "runtime-main.js.map": "/coffee-app/static/js/runtime-main.1d0466d8.js.map",
+    "static/js/2.3cf7beb5.chunk.js": "/coffee-app/static/js/2.3cf7beb5.chunk.js",
+    "static/js/2.3cf7beb5.chunk.js.map": "/coffee-app/static/js/2.3cf7beb5.chunk.js.map",
+    "static/js/3.1c9abc8b.chunk.js": "/coffee-app/static/js/3.1c9abc8b.chunk.js",
+    "static/js/3.1c9abc8b.chunk.js.map": "/coffee-app/static/js/3.1c9abc8b.chunk.js.map",
+    "index.html": "/coffee-app/index.html",
+    "static/css/main.75900c75.chunk.css.map": "/coffee-app/static/css/main.75900c75.chunk.css.map",
+    "static/js/2.3cf7beb5.chunk.js.LICENSE.txt": "/coffee-app/static/js/2.3cf7beb5.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/coffee-app/static/media/roboto-regular.176f8f5b.woff2"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.1d0466d8.js",
+    "static/js/2.3cf7beb5.chunk.js",
+    "static/css/main.75900c75.chunk.css",
+    "static/js/main.d6ba46d5.chunk.js"
+  ]
+}
