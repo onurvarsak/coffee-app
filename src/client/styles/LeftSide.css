@@ -1,0 +1,37 @@
+.Button {
+    text-transform: capitalize;
+    padding-left: 10px;
+    cursor: pointer;    
+}
+
+.Active {
+    color: dodgerblue;
+    font-weight: bold;
+}
+
+.Input {
+    box-sizing: border-box;
+    height: 40px;
+    padding-left: 10px;
+    border-radius: 6px;
+    width: 100%;
+    border: 1px solid #b7b4b4;
+    outline: none;
+    margin-bottom: 15px;
+    font-family: Roboto-Regular;
+    font-weight: bold;
+    letter-spacing: 1px;
+    
+    
+}
+
+.Input::placeholder {
+    color:#b7b4b4;
+    opacity: 1.2;
+  }
+
+.LeftSideContainer {
+    box-sizing: border-box;
+    padding: 10px 20px;
+    width: 100%;
+}
