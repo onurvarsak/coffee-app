@@ -1,0 +1,19 @@
+.CoffeeContainer {
+    margin-bottom: 50px;
+}
+.Title {
+    font-family: Exo-Bold;
+    font-size: 24px;
+    margin-bottom: 12px;
+}
+
+.Description{
+    font-size: 15px;
+    font-family: Roboto-Regular;
+    margin-bottom: 12px;
+}
+
+.Ingredients {
+    font-family: Roboto-Regular;
+    font-size: 13px;
+}

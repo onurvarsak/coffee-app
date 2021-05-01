@@ -1,3 +1,21 @@
+.AppContainer {
+  display: flex;
+  flex-direction: row;
+  height: 80vh;
+  width: 50%;
+  border: 1px solid black;
+  border-radius: 4px;
+  margin: auto;
+  margin-top: 40px;
+  box-sizing: border-box;
+
+}
+@media only screen and (max-width: 800px) {
+  .AppContainer {
+    flex-direction: column;
+  }
+}
+
 .App {
   text-align: center;
 }
@@ -35,4 +53,14 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+@font-face {
+  font-family: 'Exo-Bold';
+  src: local('Exo-Bold'), url(./fonts/exo-bold.woff2) format('woff2');
+}
+
+@font-face {
+  font-family: 'Roboto-Regular';
+  src: local('Roboto-Regular'), url(./fonts/roboto-regular.woff2) format('woff2');
 }
